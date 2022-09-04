@@ -18,10 +18,6 @@ export default function Home({ updateCorp, searchResult, setSearchResult, setCor
     }
     console.log(searchResult);
 
-    const handleCDS = (e)=>{
-        e.preventDefault()
-
-    }
     return (
         <div className='home'>
             <form onSubmit={handleSubmit}>

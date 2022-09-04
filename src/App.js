@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './Pages/Home'
 
 
 function App() {
-  // const location = useLocation()
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
   const [searchResult, setSearchResult] = useState([])
